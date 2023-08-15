@@ -1,0 +1,22 @@
+
+##
+GET http://localhost:4888/travelPackages
+
+###
+POST http://localhost:4888/travelPackages
+Content-Type: application/json
+
+{
+    "key": 31,
+        "src": "images/img-54.jpg",
+        "text": "Explore The City of Brucelas",
+        "label": "Family",
+        "path": "/services",
+        "price": "$950",
+        "location": "Belgium"
+}
+
+
+
+
+
