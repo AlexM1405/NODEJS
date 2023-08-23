@@ -1,22 +1,36 @@
 
 ##
-GET http://localhost:4888/travelPackages
+GET http://localhost:4888/Tours
+
+### Recuperar una película por id
+GET http://localhost:1234/Tours/1
+
+### Recuperar todas las películas por un género
+GET http://localhost:1234/Tours?location=France
 
 ###
-POST http://localhost:4888/travelPackages
+POST http://localhost:4888/Tours
 Content-Type: application/json
 
 {
-    "key": 31,
+    "id": 31,
         "src": "images/img-54.jpg",
         "text": "Explore The City of Brucelas",
         "label": "Family",
-        "path": "/services",
         "price": "$950",
         "location": "Belgium"
 }
 
+### Borrar una película
+DELETE http://localhost:4888/Tours
 
+### Actualizar una película
+PATCH http://localhost:4888/Tours
+Content-Type: application/json
+
+{
+  "year": 2022
+}
 
 
 
