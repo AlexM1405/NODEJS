@@ -1,4 +1,4 @@
-import { TourModel } from "../Models/TourModel.js";
+import { TourModel } from "../Models/Local-file-System/TourModel.js";
 import { validateTours, validateParcialTours } from "../Schemas/TourSchemas.js"
 
 export class ToursControllers {
