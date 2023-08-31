@@ -1,7 +1,7 @@
 import z from 'zod'
 
     const ToursSchema = z.object({
-        id: z.number().int(),
+        id: z.string(),
         src : z.string().url().endsWith(".jpg"),
         text:  z.string(),
         label:   z.string(),

@@ -1,5 +1,5 @@
 
-import { UserModel } from '../Models/Local-file-System/UserModel'
+import { UserModel } from '../Models/Local-file-System/UserModel.js'
 import { validateUser , validateParcialUser} from "../Schemas/UserSchemas.js"
 
 export class UserControllers {

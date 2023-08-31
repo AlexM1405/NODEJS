@@ -1,21 +1,14 @@
-import mysql from "mysql2"
+import { Sequelize } from 'sequelize';
+import dotenv from 'dotenv';
 
-const dbConfig = {
-    host: 'localhost',
-    port: 3306,
-    user: 'root',
-    password: 'Alex1405',
-    database: 'UTRAVEL'
-}
+dotenv.config();
 
- export const connection = mysql.createConnection(dbConfig)
+export const sequelize = new Sequelize(process.env.DATABASE, process.env.USER, process.env.PASSWORD, {
+  host: process.env.HOST,
+  dialect: 'mysql'
+});
 
-connection.connect((err) => {
-    if (err) {
-        console.log('Error ca la bbdd')
-        return
-    } else {
-        console.log('Conexion establecida')
-    }
-})
+sequelize.authenticate()
+  .then(() => console.log('Connection has been established successfully.'))
+  .catch(error => console.error('Unable to connect to the database:', error));
 

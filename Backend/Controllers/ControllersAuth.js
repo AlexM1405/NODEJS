@@ -1,12 +1,12 @@
-import { User } from "../Models/Local-file-System/UserModel";
-import bcrypt from "bcryptjs";
-import { generarJWT } from "../Helpers/generatorJWT";
+import { UserModel } from "../Models/Local-file-System/UserModel.js";
+import { generarJWT } from "../Helpers/generatorJWT.js";
+import bcrypt from "bcrypt"
 
 export const login = async (req, res) => {
   const { email, password } = req.body
 
   try {
-    const userDB = await User.findOne({ where: { email } })
+    const userDB = await UserModel.findOne({ where: { email } })
     console.log(userDB)
     if (userDB) {
       const validPassword = bcrypt.compareSync(password, usuarioDB.password)

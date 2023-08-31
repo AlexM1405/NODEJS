@@ -1,10 +1,10 @@
 import z from 'zod'
 
 const UserSchema = z.object({
-    name: z.string().not().isEmpty(),
-    pasword:  z.string().not().isEmpty(),
-    email: z.email().not().isEmpty(),
-    id: z.number().int(),
+    name: z.string(),
+    pasword:  z.number(),
+    email: z.string().email(),
+    id: z.string(),
 
     
 })
