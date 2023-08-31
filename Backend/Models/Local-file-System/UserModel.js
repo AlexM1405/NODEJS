@@ -1,4 +1,4 @@
-import {dbConnection } from "../../dbConnection.js"
+import {dbConnection } from "../../dataBase/dbConnection.js"
 import {DataTypes } from "sequelize"
 
  export const User = dbConnection.define("User", {
@@ -24,6 +24,6 @@ import {DataTypes } from "sequelize"
 
   User.sync({ alter: true })
   .then(() => {
-    console.log("Tabla de usuarios sincronizada")
+    console.log("Table of User Sincronize")
   })
   .catch((error) => console.log(error))

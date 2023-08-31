@@ -25,11 +25,11 @@ Content-Type: application/json
 DELETE http://localhost:4888/Tours
 
 ### Actualizar un Tour
-PATCH http://localhost:4888/Tours
+PATCH http://localhost:4888/Tours/Tours/4fd6bc33-9407-4d5f-a16b-e183f61f76dd
 Content-Type: application/json
 
 {
-  "price": "1500$"
+  "price": "4500$"
 }
 
 

@@ -18,11 +18,6 @@ export class TourModel {
         const Tour = Tours.find(Tour => Tour.id === id)
         return Tour
     }
-    static async getBylocation ({location}) {
-        const Tour = Tours.filter(Tour => Tour.location === location)
-        return Tour
-    }
-    
     static async create  ({input}) {
         const newTours ={
             id: randomUUID(),

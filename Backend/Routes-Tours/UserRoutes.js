@@ -1,12 +1,13 @@
 import { Router} from 'express'
 
 import { UserControllers } from "../Controllers/ControllersUser.js"
+import { validarJWT } from '../Middleware/jsonwebtoken.js'
 
 export const UserRouter = Router()
 
-UserRouterRouter.get("/", (UserControllers.getAll))
-UserRouterRouter.post("/", (UserControllers.create))
+UserRouter.get("/",[validarJWT] (UserControllers.getAll))
+UserRouter.post("/", (UserControllers.create))
 
-UserRouterRouter.get("/:id", (UserControllers.getbyID))
-UserRouterRouter.delete('/:id',(UserControllers.delete))
-UserRouterRouter.patch("/:id", (UserControllers.update))
+UserRouter.get("/:id", (UserControllers.getbyID))
+UserRouter.delete('/:id',(UserControllers.delete))
+UserRouter.patch("/:id", (UserControllers.update))
