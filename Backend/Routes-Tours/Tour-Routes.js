@@ -1,12 +1,18 @@
 import { Router } from "express";
 import { ToursControllers } from "../Controllers/ControllersTours.js";
 
- export const TourRouter = Router()
+export const createTourRouter = ({TourRouter}) => {
+  const ToursRouter = Router()
+
+ const toursController = new ToursControllers({tourModel: TourModel})
 
 
-TourRouter.get("/", (ToursControllers.getAll))
-TourRouter.post("/", (ToursControllers.create))
+TourRouter.get("/", (toursController.getAll))
+TourRouter.post("/", (toursController.create))
 
-TourRouter.get("/:id", (ToursControllers.getById))
-TourRouter.delete('/:id',(ToursControllers.delete))
-TourRouter.patch("/:id", (ToursControllers.update))
+TourRouter.get("/:id", (toursController.getById))
+TourRouter.delete('/:id',(toursController.delete))
+TourRouter.patch("/:id", (toursController.update))
+
+return ToursRouter
+}

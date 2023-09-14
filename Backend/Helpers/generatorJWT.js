@@ -11,7 +11,7 @@ export const generarJWT = (id, name) => {
         },(err, token) => {
             if (err) {
                 console.log(err)
-                reject('I cant generate the JWT Token')
+                reject('cant generate the JWT Token')
             } else {
                 resolve(token)
             }

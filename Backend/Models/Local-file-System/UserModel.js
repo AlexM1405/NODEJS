@@ -1,18 +1,13 @@
 import { Sequelize, DataTypes } from 'sequelize';
 import bcrypt from 'bcrypt';
 
-const sequelize = new Sequelize('database', 'username', 'password', {
-  host: 'localhost',
-  dialect: 'mysql'
-});
-
-export const UserModel = sequelize.define('User', {
+export const UserModel = Sequelize.define('User', {
   id: {
     type: DataTypes.UUID,
     defaultValue: DataTypes.UUIDV4,
     primaryKey: true
   },
-  name: {
+  Username: {
     type: DataTypes.STRING,
     allowNull: false
   },

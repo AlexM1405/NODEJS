@@ -5,7 +5,7 @@ import { validarJWT } from '../Middleware/jsonwebtoken.js'
 
 export const UserRouter = Router()
 
-UserRouter.get("/",(UserControllers.getAll))
+
 UserRouter.post("/", (UserControllers.create))
 
 UserRouter.get("/:id", (UserControllers.getbyID))
