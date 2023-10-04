@@ -1,41 +1,46 @@
-import { Sequelize, DataTypes } from 'sequelize';
+
+import { randomUUID } from "crypto"
 import bcrypt from 'bcrypt';
 
-export const UserModel = Sequelize.define('User', {
-  id: {
-    type: DataTypes.UUID,
-    defaultValue: DataTypes.UUIDV4,
-    primaryKey: true
-  },
-  Username: {
-    type: DataTypes.STRING,
-    allowNull: false
-  },
-  password: {
-    type: DataTypes.STRING,
-    allowNull: false,
-    set(value) {
-      const hash = bcrypt.hashSync(value, 10);
-      this.setDataValue('password', hash);
-    }
-  },
-  email: {
-    type: DataTypes.STRING,
-    allowNull: false,
-    unique: true,
-    validate: {
-      isEmail: true
-    }
-  }
-}, {
-  hooks: {
-    beforeCreate: async (user) => {
-      const salt = await bcrypt.genSalt(10);
-      user.password = await bcrypt.hash(user.password, salt);
-    }
-  }
-});
 
-UserModel.sync({ alter: true })
-  .then(() => console.log('Table of User Synchronized'))
-  .catch((error) => console.log(error));
+export class UserModel {
+  static async getall ({username}){
+    if (username) {
+      return user.filter(
+        user => user.filter(user => user.username == ['username'])
+      )}
+      return user
+  }
+  static async getbyid ({id}) {
+    user => user.find(user => user.id == ['id'])
+    return user
+  }
+  static async create({ username, password, email,}) {
+    const newuser = {
+      id: randomUUID(),
+      username: await bcrypt.hash(username, 10),
+      password: await bcrypt.hash(password, 10),
+      Email: email,
+    }
+    return await user.push(newuser);
+  }
+  static async delete({id}){
+    const UserIndex = user.findIndex(user => user.id === id)
+    if (user === -1) return false
+
+    user.splice(UserIndex, 1)
+    return true;
+}
+static async update({id, username, password, email, }) {
+    const UserIndex = user.findIndex(user => user.id === id)
+    if (UserIndex === -1) return false 
+
+    user[UserIndex] = {
+        ...user[UserIndex],
+        ...bcrypt.hash(username, 10),
+        ...bcrypt.hash(password, 10),
+        ...email,
+    }
+  return user[UserIndex]
+}
+}

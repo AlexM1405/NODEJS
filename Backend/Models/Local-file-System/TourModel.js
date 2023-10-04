@@ -9,11 +9,10 @@ export class TourModel {
     static async getAll ({location}) {
     if (location) {
     return Tours.filter(
-        tour => Tours.filter(tour => tour.location === location)
+        Tours => Tours.filter(Tour => Tour.location === location)
     )}
     return Tours
     }
-
     static async getById ({id}) {
         const Tour = Tours.find(Tour => Tour.id === id)
         return Tour
