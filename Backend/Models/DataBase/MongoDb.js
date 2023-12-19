@@ -1,34 +1,27 @@
-import { MongoClient, ObjectId, ServerApiVersion } from 'mongodb'
-const uri = 'mongodb+srv://user:???@cluster0.dhwmu.mongodb.net/?retryWrites=true&w=majority'
+import mongoose from "mongoose";
+import dotenv from "dotenv"
 
-// Create a MongoClient with a MongoClientOptions object to set the Stable API version
-const client = new MongoClient(uri, {
-  serverApi: {
-    version: ServerApiVersion.v1,
-    strict: true,
-    deprecationErrors: true
-  }
-})
 
-async function connect () {
-  try {
-    await client.connect()
-    const database = client.db('database')
-    return database.collection('Tours')
-  } catch (error) {
-    console.error('Error connecting to the database')
-    console.error(error)
-    await client.close()
+dotenv.config()
+mongoose.set("strictQuery", false)
+export const connect = async () =>{
+  try{
+    await mongoose.connect(process.env.MONGO_URI, {
+    })
+    console.log("MongoDb database connected")
+    
+  } catch (err) {
+    console.log("Error connecting to the database: ", err.message);
   }
 }
 
-export class ToursModel {
+export class TourModel {
   static async getAll ({ location }) {
     const db = await connect()
 
     if (location) {
       return db.find({
-        genre: {
+        location: {
           $elemMatch: {
             $regex: genre,
             $options: 'i'

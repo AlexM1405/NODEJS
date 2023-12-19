@@ -9,8 +9,9 @@ export class TourModel {
     static async getAll ({location}) {
     if (location) {
     return Tours.filter(
-        Tours => Tours.filter(Tour => Tour.location === location)
-    )}
+        Tours => Tours.location.some(l => l.toLowerCase()=== location.toLowerCase())
+        )
+    }
     return Tours
     }
     static async getById ({id}) {
@@ -25,16 +26,15 @@ export class TourModel {
         Tours.push(newTours)
         return newTours
     }
-
-    static async delete({id}){
-        const ToursIndex = Tours.findIndex(Tours => Tours.id === id)
-        if (Tours === -1) return false
+    static async delete ({id}) {
+        const ToursIndex = Tours.findIndex(Tour => Tour.id === id)
+        if (ToursIndex === -1) return false
 
         Tours.splice(ToursIndex, 1)
         return true;
     }
     static async update({id, input }) {
-        const ToursIndex = Tours.findIndex(Tours => Tours.id === id)
+        const ToursIndex = Tours.findIndex(Tour => Tour.id === id)
         if (ToursIndex === -1) return false 
 
         Tours[ToursIndex] = {

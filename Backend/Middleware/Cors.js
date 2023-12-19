@@ -4,7 +4,7 @@ const ACCEPTED_ORIGINS = [
   'http://localhost:4888',
   'http://localhost:5173',
   'https://Utravel.com',
-  'https://midu.dev'
+  
 ]
 
   
@@ -19,5 +19,6 @@ const ACCEPTED_ORIGINS = [
     }
 
     return callback(new Error('Not allowed by CORS'))
-  }
+  },
+  credentials: true,
 })

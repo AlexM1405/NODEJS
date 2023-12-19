@@ -1,20 +1,18 @@
-import z from 'zod'
+import { z } from 'zod';
 
-    const ToursSchema = z.object({
-        id: z.string(),
-        src : z.string().url().endsWith(".jpg"),
-        text:  z.string(),
-        label:   z.string(),
-        price:      z.number().int().positive(),
-        location: z.string(),
-    })
-
+const TourSchema = z.object({
+ src: z.string(),
+ text: z.string(),
+ label: z.string(),
+ description: z.string(),
+ price: z.number().int().positive(),
+ location: z.string(),
+});
 
 export function validateTours(input) {
-    return ToursSchema.safeParse(input)
+ return TourSchema.safeParse(input)
 }
-
 export function validateParcialTours(input) {
-    return ToursSchema.partial().safeParse(input)
+    return TourSchema.partial().safeParse(input)
 }
 

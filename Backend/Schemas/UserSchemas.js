@@ -1,13 +1,10 @@
-import z from 'zod'
+import { z } from 'zod'
 
 const UserSchema = z.object({
-    name: z.string(),
-    pasword:  z.number(),
-    email: z.string().email(),
-    id: z.string(),
-
-    
-})
+    username: z.string(),
+    email: z.string().email(), 
+    password: z.string(),
+ });
 
 export function validateUser(input) {
     return UserSchema.safeParse(input)

@@ -5,8 +5,7 @@
   "main": "Serv.js",
   "type": "module",
   "scripts": {
-    "start:local": "node --watch server-with-local.js",
-    "start:mysql":"node --watch server-with-mysql.js",
+    "start:local": "node --watch Serv.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "idwords": [],
@@ -14,12 +13,14 @@
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "express-validator": "^7.0.1",
     "jsonwebtoken": "^9.0.1",
     "mongodb": "^5.8.0",
+    "mongoose": "^8.0.1",
     "mysql2": "^3.6.0",
     "sequelize": "^6.32.1",
     "zod": "3.21.4"

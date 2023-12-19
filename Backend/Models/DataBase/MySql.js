@@ -1,7 +1,7 @@
 import dotenv from 'dotenv';
 dotenv.config();
 import mysql from 'mysql2';
-import bcrypt from 'bcrypt';
+
 
 // Create the connection to the database
 export const connection = mysql.createConnection({
@@ -108,20 +108,4 @@ export class tourmodel {
     return this.getbyid({ id });
   }
 
-}
-  export class UserModel {
-    static async createUser({ username, password, email }) {
-      const salt = await bcrypt.genSalt(10);
-      const hash = await bcrypt.hash(password, salt);
-  
-      try {
-        await connection.query(
-          `INSERT INTO user (username, password, email) VALUES (?, ?, ?)`,
-          [username, hash, email]
-        );
-        console.log('User created successfully');
-      } catch (err) {
-        console.log(`Error creating user: ${err}`);
-      }
-    }
 }
