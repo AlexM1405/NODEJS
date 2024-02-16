@@ -2,7 +2,7 @@
      [
       {
         "id": "d37caa8b-ddc9-4abf-8976-aa518ef8f2b2",
-        "src": "/public/images/img-12.jpg",
+        "src": "images/img-12.jpg",
         "text": "Explore the 7 Lakes of San Carlos bariloche",
         "label": "Adventure",
         "description": "Embark on a breathtaking exploration of nature's wonders with our Tour of the 7 Lakes in San Carlos Bariloche. Nestled in the heart of Patagonia, this journey takes you through a mesmerizing landscape of crystal-clear lakes, dense forests, and majestic mountains.As you traverse the scenic route, each lake unfolds a unique charm, from the mirror-like reflections of Nahuel Huapi to the serene allure of Lacar. Immerse yourself in the beauty of the Arrayanes Forest, where ancient trees create a magical atmosphere.Our expert guides ensure you don't just witness the splendor but also understand the rich history and ecology that make these lakes a natural treasure. Whether you're an adventure seeker or a nature enthusiast, the 7 Lakes Tour promises an unforgettable experience in one of Argentina's most picturesque regions.",
@@ -11,7 +11,7 @@
       },
       {
         "id": "4f240246-d3bc-4ab9-a43d-dddb295d2c78",
-        "src": "/public/images/img-13.jpg",
+        "src": "images/img-13.jpg",
         "text": "Travel through the Islands of Los Roques in a Private Cruise",
         "label": "Luxury",
         "description": "Embark on an exclusive adventure with our Private Cruise Tour through the enchanting Islands of Los Roques. Experience the epitome of luxury as you sail through the crystalline waters of the Caribbean, discovering the untouched beauty of this archipelago.Indulge in the privacy and comfort of your private yacht, where each moment is tailored to your desires. Explore the pristine white-sand beaches, vibrant coral reefs, and secluded cays that make Los Roques a tropical paradise. Snorkel in the clear azure waters, lounge on deserted beaches, and savor gourmet meals prepared by our onboard culinary team.Our expert crew ensures your every need is met, from personalized itineraries to secluded anchorages. This private cruise isn't just a journey; it's an intimate escape into the untouched beauty of Los Roques, promising a truly exclusive and unforgettable experience",
@@ -20,7 +20,7 @@
       },
       {
         "id": "4fd6bc33-9407-4d5f-a16b-e183f61f76dd",
-        "src": "/public/images/img-10.jpg",
+        "src": "images/img-10.jpg",
         "text": "Explore the Amazing Amalfi Coast",
         "label": "Luxury",
         "description":"Embark on a captivating journey along the iconic Amalfi Coast, where every twist and turn reveals a postcard-perfect panorama. Our Amalfi Coast Tour promises an enchanting exploration of this UNESCO World Heritage site, known for its dramatic cliffs, charming coastal villages, and azure Mediterranean views.Wind your way through the narrow, cliff-hugging roads to witness the breathtaking beauty of Positano, Amalfi, and Ravello. Immerse yourself in the rich history and culture as you stroll through picturesque streets, adorned with pastel-hued buildings and vibrant bougainvillea. Indulge your senses with local cuisine, savoring freshly caught seafood and regional delights at seaside trattorias. Marvel at the architectural wonders, including the iconic Amalfi Cathedral and the terraced gardens of Villa Cimbrone.Our expert guides ensure an immersive experience, sharing stories of the coast's fascinating past and providing insider insights into its hidden gems. Discover the magic of the Amalfi Coast with us, where every moment is a postcard-worthy memory waiting to be captured.",
@@ -29,7 +29,7 @@
       },
       {
         "id": "31ac6875-f5cf-4abe-af41-225d6340d445",
-        "src": "/public/images/img-11.jpg",
+        "src": "images/img-11.jpg",
         "text": "Experience The Efil Tower",
         "label": "Family",
         "description":"Embark on an iconic journey to witness the timeless allure of the Eiffel Tower with our exclusive Eiffel Tower Tour. As you ascend this architectural masterpiece, feel the romance and elegance that Paris is renowned for. Our expert guides will share fascinating stories about Gustave Eiffel's creation and the tower's integral role in French history. Marvel at the panoramic views from each level, capturing the essence of the City of Light as it sparkles below.Indulge in the magic of the Eiffel Tower's illuminations as day turns to night, transforming this landmark into a dazzling spectacle. Whether you're captivated by its intricate ironwork or savoring the breathtaking cityscape, our tour promises an unforgettable experience, immersing you in the enchantment of one of the world's most celebrated landmarks",
@@ -38,7 +38,7 @@
       },
       {
         "id": "6b4ebdd1-30cd-42da-a543-69d699ce9a71",
-        "src": "/public/images/img-8.jpg",
+        "src": "images/img-8.jpg",
         "text": "Ride through the Sahara Desert on a guided camel tour",
         "label": "Adrenaline",
         "description": "Embark on an extraordinary adventure with our guided camel tour through the mesmerizing Sahara Desert. Traverse the undulating golden dunes, where each step is a journey back in time, surrounded by the breathtaking expanse of the world's largest desert. As you mount your camel, experience the timeless allure of the Sahara guided by seasoned experts who unveil the secrets of this vast and mystical landscape. The rhythmic sway of your camel's gait provides a unique perspective, allowing you to absorb the tranquil beauty and silence that envelops this ancient terrain.Witness the ever-shifting hues of the desert as the sun sets, casting a warm, golden glow across the endless sands. Our expert guides ensure not only a safe passage through the dunes but also share insights into the rich cultural tapestry of the nomadic tribes that call this captivating desert home.This camel tour promises not just a journey but an immersion into the timeless beauty and serenity of the Sahara, creating memories that linger long after the last camel's step fades into the desert winds",
@@ -47,7 +47,7 @@
       },
       {
         "id": "eccda2be-b5a5-49b4-be02-a57229d412e3",
-        "src": "/public/images/img-9.jpg",
+        "src": "images/img-9.jpg",
         "text": "Aventures through the Jungle of Amazonas",
         "label": "Adventure",
         "description":"Embark on a thrilling adventure through the heart of the Amazon Rainforest with our guided Jungle Adventures Tour. Immerse yourself in the vibrant tapestry of biodiversity as you navigate dense foliage, winding rivers, and the captivating sounds of exotic wildlife. Led by seasoned guides with deep knowledge of the rainforest, this expedition unveils the secrets of the Amazonas. Traverse suspended canopy walkways, where treetop views offer a unique perspective on the lush ecosystem below. Encounter incredible flora and fauna, from vibrant parrots to elusive jungle cats, as you explore trails that lead to hidden waterfalls and ancient trees. Feel the pulse of the jungle as you embark on river excursions, gliding past towering trees and vibrant flora. Our expert guides share insights into the delicate balance of this ecosystem, weaving together stories of indigenous cultures and the importance of conservation.This Jungle Adventures Tour promises an unforgettable expedition into the heart of the Amazon, where every step is a discovery and every moment a connection to the wild beauty that defines this extraordinary rainforest.",
@@ -56,7 +56,7 @@
       },
       {
         "id": "0517b6a5-487b-4a3b-9f30-035a84e85d8f",
-        "src": "/public/images/img-2.jpg",
+        "src": "images/img-2.jpg",
         "text": "Explore through BoraBora in a Private Cruise",
         "label": "Luxury",
         "description":"Embark on the ultimate luxury escape with our Private Cruise Exploration of Bora Bora, where every moment is tailored to perfection. Sail across the crystal-clear turquoise waters of the South Pacific aboard your private yacht, surrounded by the iconic overwater bungalows and lush green peaks of this tropical paradise.Indulge in the exclusivity of your own floating haven, where attentive crew members cater to your every desire. Discover hidden coves, pristine coral gardens, and secluded beaches accessible only by sea. Snorkel in vibrant lagoons, lounge on white-sand beaches, and witness the breathtaking sunset against the backdrop of Mount Otemanu.Our expert guides provide insights into the Polynesian culture and the unique biodiversity of the region, ensuring your exploration is as informative as it is luxurious. Bask in the serenity of Bora Bora's beauty as you navigate the tranquil waters, creating memories of a lifetime on this private cruise through paradise",
@@ -65,7 +65,7 @@
       },
       {
         "id": "5f09c2f7-9fee-4e2b-8c1d-d0843968e3ed",
-        "src": "/public/images/img-18.jpg",
+        "src": "images/img-18.jpg",
         "text": "Explore the Cenotes at private dive",
         "label": "Adrenaline",
         "description":"Dive into a world of natural wonder with our Private Dive Tour, exploring the mesmerizing cenotes. Embark on an exclusive journey into the heart of the Yucatán Peninsula, where each cenote is a unique gateway to the mystical underworld. Led by expert guides, this private dive unveils the secrets of these ancient sinkholes, surrounded by lush jungle. Descend into crystal-clear waters to discover surreal limestone formations, hidden caves, and submerged stalactites that create an ethereal underwater landscape.Experience the thrill of exploration in privacy as you navigate through secluded cenotes, each with its own enchanting charm. Our guides provide personalized attention, ensuring a safe and unforgettable dive. Whether you're a seasoned diver or a novice adventurer, this private cenote exploration promises an immersive journey into the magical depths of the Yucatán's natural wonders.",
@@ -74,7 +74,7 @@
       },
       {
         "id": "75fe50ec-f34e-4da5-99b4-95b359400004",
-        "src": "/public/images/img-14.jpg",
+        "src": "images/img-14.jpg",
         "text": "Relax at Cancun in all Inclusive Hotel & Resorts",
         "label": "Family",
         "description":"Indulge in the epitome of relaxation with our Inclusive Hotel and Resorts Tour in Cancun. Immerse yourself in the lap of luxury as you unwind on the pristine beaches of the Mexican Caribbean, surrounded by azure waters and swaying palm trees. Your all-inclusive experience begins at our carefully selected resorts, where every amenity and detail is curated to provide a seamless retreat. Enjoy unlimited access to gourmet dining, refreshing beverages, and a variety of recreational activities, all while basking in the warmth of Cancun's tropical paradise. From rejuvenating spa treatments to lounging by infinity pools overlooking the ocean, our tour is designed for ultimate relaxation. Whether you seek tranquility in adults-only escapes or family-friendly fun, our inclusive resorts cater to your every need. Let the soothing ambiance of Cancun envelop you as you revel in a stress-free escape, where the only decision you'll need to make is whether to lounge on the beach or by the pool",
@@ -83,7 +83,7 @@
       },
       {
         "id": "45114e26-510b-4bd4-ad4b-1020ed0ee838",
-        "src": "/public/images/img-16.jpg",
+        "src": "images/img-16.jpg",
         "text": "Private Sightseeing Tour to Mount Fuji and Hakone",
         "label": "Luxury",
         "description":"Embark on an exclusive journey with our Private Sightseeing Tour to Mount Fuji and Hakone, a personalized adventure designed for those seeking a bespoke exploration of Japan's iconic landscapes. Your private guide will lead you through the captivating scenery surrounding Mount Fuji, Japan's highest peak. Marvel at the majestic mountain from strategic viewpoints, capturing the awe-inspiring beauty that has inspired artists and poets for centuries. As the journey continues to Hakone, immerse yourself in the region's rich cultural offerings. Visit traditional hot springs, explore the Hakone Open-Air Museum, and cruise on serene Lake Ashi with stunning views of Mount Fuji in the background. With the flexibility to tailor the itinerary to your preferences, this private tour ensures an intimate and unforgettable experience. From the grandeur of Mount Fuji to the tranquil landscapes of Hakone, every moment is crafted to provide a personal connection with Japan's natural and cultural wonders.",
@@ -92,7 +92,7 @@
       },
       {
         "id": "ecd45026-450a-4b72-af76-2983dd732cab",
-        "src": "/public/images/img-17.jpg",
+        "src": "images/img-17.jpg",
         "text": "Explore the acient Pyramids of Egypt",
         "label": "Adrenaline",
         "description":"Embark on a mesmerizing journey through time with our Explore the Ancient Pyramids of Egypt Tour. Traverse the mystical landscapes of the Giza Plateau, where the iconic pyramids rise majestically against the backdrop of the Egyptian desert. Led by seasoned Egyptologists, uncover the secrets of these ancient wonders as you stand in awe before the Great Pyramid of Giza, the Sphinx, and the captivating pyramids of Khafre and Menkaure. Marvel at the precision and engineering marvels that have mystified historians for centuries. Immerse yourself in the rich tapestry of Egyptian history as you wander through ancient burial grounds and fascinating tombs. From the grandeur of the Pyramids to the enigmatic Sphinx, each step unveils the incredible legacy of a civilization that shaped the course of history.This tour promises an unforgettable exploration of the ancient wonders of Egypt, offering insights into the awe-inspiring feats of architecture and the enduring allure of the pyramids",
@@ -101,7 +101,7 @@
       },
       {
         "id": "dd7a0b1a-0cf4-45d9-a52c-7ce968b9c7b7",
-        "src": "/public/images/img-19.jpg",
+        "src": "images/img-19.jpg",
         "text": "Experience The street of Instabul",
         "label": "Adventure",
         "description":"Embark on a sensory journey through the vibrant tapestry of Istanbul with our Experience the Streets of Istanbul Tour. Immerse yourself in the heart of this captivating city, where East meets West, and ancient history blends seamlessly with modern life. Led by knowledgeable local guides, navigate the bustling streets of the Grand Bazaar, a treasure trove of exotic spices, intricate carpets, and handmade crafts. Wander through the historic neighborhoods of Sultanahmet, where iconic landmarks such as the Blue Mosque and Hagia Sophia stand as testaments to Istanbul's rich cultural heritage. Savor the tantalizing flavors of Turkish cuisine as you explore lively markets, sampling delectable street food and traditional sweets. Witness the dynamic energy of Istiklal Avenue, lined with eclectic shops, art galleries, and vibrant street performers.This tour is an immersive experience into the soul of Istanbul, where the sights, sounds, and flavors of the streets create a vivid mosaic of the city's timeless charm and contemporary allure.",
@@ -110,7 +110,7 @@
       },
       {
         "id": "3668e372-cdd8-490e-861a-7ed93045494e",
-        "src": "/public/images/img-20.jpg",
+        "src": "images/img-20.jpg",
         "text": "Ride through the Amazings street of Amstendam",
         "label": "Family",
         "description":"Embark on a captivating journey through the enchanting streets of Amsterdam with our Ride Through the Amazing Streets of Amsterdam Tour. Discover the unique charm of this picturesque city as you cruise along historic canals, lined with iconic Dutch architecture and vibrant neighborhoods.Guided by local experts, explore hidden gems and iconic landmarks, including the Anne Frank House, the Royal Palace, and the picturesque Jordaan district. Glide past the famous flower market, where a riot of colors and fragrances fills the air, and immerse yourself in the lively atmosphere of Dam Square. As you pedal through charming cobblestone streets, soak in the laid-back ambiance and cultural richness of Amsterdam. From historic bridges to quaint cafes, every turn reveals a new facet of this remarkable city. Whether you're a history enthusiast, art lover, or simply seeking to absorb the unique energy of Amsterdam, this tour promises an unforgettable ride through the heart of one of Europe's most beloved cities.",
@@ -119,7 +119,7 @@
       },
       {
         "id": "1fad2e14-93f6-43a4-9b90-745a2404dfaa",
-        "src": "/public/images/img-21.jpg",
+        "src": "images/img-21.jpg",
         "text": "Explore the Amazing Island of Santorini",
         "label": "Luxury",
         "description":"Embark on an extraordinary journey to explore the captivating beauty of the amazing island of Santorini. Nestled in the Aegean Sea, this tour invites you to discover the enchanting landscapes, whitewashed villages, and azure waters that define this iconic Greek gem. Guided by seasoned local experts, meander through the narrow cobblestone streets of Oia, where charming blue-domed churches and traditional Cycladic architecture adorn the cliffside. Revel in breathtaking panoramic views of the caldera and the sun dipping into the horizon, casting a warm glow over the entire island. Venture into the heart of Fira, the island's vibrant capital, and wander through bustling markets, sampling local delicacies and absorbing the lively atmosphere. Relax on the distinctive black sand beaches, swim in crystalline waters, and immerse yourself in the unique cultural tapestry that makes Santorini an unparalleled destination",
@@ -128,7 +128,7 @@
       },
       {
         "id": "11690ca8-c278-4d30-9fe7-6a0f039ebeec",
-        "src": "/public/images/img-22.jpg",
+        "src": "images/img-22.jpg",
         "text": "Explore The Amazing island of Bali",
         "label": "Luxury",
         "description":"Embark on an enchanting journey to explore the captivating beauty of the amazing island of Bali. Surrounded by lush landscapes, cascading rice terraces, and pristine beaches, this tour invites you to discover the cultural richness and natural wonders that make Bali a tropical paradise. Guided by knowledgeable local experts, traverse the verdant landscapes of Ubud, the cultural heart of Bali, where ancient temples and vibrant markets await. Immerse yourself in the tranquility of Tegallalang Rice Terraces, a breathtaking testament to Bali's agricultural heritage. Relax on the idyllic beaches of Uluwatu, where golden sands meet the azure Indian Ocean. Witness the mesmerizing Kecak dance against the backdrop of Uluwatu Temple, perched on the edge of dramatic cliffs.Explore the distinctive Besakih Temple, Bali's Mother Temple, nestled on the sacred slopes of Mount Agung. From the artistic haven of Seminyak to the spiritual charm of Tanah Lot, every corner of Bali promises a tapestry of experiences",
@@ -137,7 +137,7 @@
       },
       {
         "id": "a3bb0589-c36e-4265-b6e7-7b606c53fe71",
-        "src": "/public/images/img-23.jpg",
+        "src": "images/img-23.jpg",
         "text": "Enjoy the Uniques Partys In Ibiza",
         "label": "Adrenaline",
         "description":"Embark on a vibrant adventure to experience the unique parties of Ibiza with our Enjoy the Unique Parties in Ibiza Tour. Dive into the world-renowned nightlife of this Mediterranean haven, where electrifying beats, legendary venues, and a magnetic energy converge to create an unparalleled party scene.Guided by local experts who know the island's nocturnal pulse, traverse the iconic beach clubs of Playa d'en Bossa, dance beneath the stars at open-air venues, and immerse yourself in the pulsating atmosphere of Ibiza's world-famous superclubs. From the legendary Pacha to the iconic Amnesia, each venue offers a distinct flavor of the island's electrifying nightlife. Revel in the diversity of musical genres, from renowned DJs spinning the latest beats to the eclectic sounds of Ibiza's unique party culture.",
@@ -146,7 +146,7 @@
       },
       {
         "id": "8ccda0cd-3742-4ed5-9347-02378e92feab",
-        "src": "/public/images/img-3.jpg",
+        "src": "images/img-3.jpg",
         "text": "Explore The Amazing Streets of Madrid",
         "label": "Family",
         "description":"Embark on a captivating journey to explore the amazing streets of Madrid, a city where history, culture, and vibrant urban life converge in a symphony of color and energy. Led by local experts, this tour invites you to stroll through iconic avenues and hidden alleys, unlocking the secrets of Spain's dynamic capital. Wander through the historic heart of Madrid, where the grandeur of the Royal Palace and the ornate architecture of Plaza Mayor unfold before you. Dive into the lively atmosphere of Puerta del Sol, a bustling hub of activity surrounded by shops, cafes, and cultural landmarks.Meander through the bohemian charm of La Latina, where narrow streets reveal eclectic boutiques, tapas bars, and street art. Explore the elegant boulevards of Gran Vía, adorned with theaters, shops, and a palpable sense of urban sophistication. This tour promises an immersive exploration of Madrid's streets, where each step offers a new perspective on the city's rich heritage and contemporary allure. From historic landmarks to local treasures, every corner of Madrid is a celebration of Spanish culture and cosmopolitan flair",
@@ -155,7 +155,7 @@
       },
       {
         "id": "342ffd0c-7431-435d-a8ee-a30cd48cc71d",
-        "src": "/public/images/img-5.jpg",
+        "src": "images/img-5.jpg",
         "text": "Experience Lisbon through a private tour",
         "label": "Luxury",
         "description":"Embark on an exclusive journey to Experience Lisbon through a Private Tour, where the rich tapestry of Portugal's capital unfolds in personalized luxury. Guided by local experts, this private exploration unveils the timeless charm and vibrant energy that define Lisbon Discover the historic Alfama district, where narrow cobblestone streets lead to hidden corners, showcasing Fado music and stunning viewpoints. Traverse the iconic neighborhoods of Baixa and Chiado, exploring elegant squares, historic theaters, and trendy boutiques.Visit the historic Belém district, home to the impressive Jerónimos Monastery and the iconic Belém Tower. Indulge in the rich flavors of Portugal with a stop at the renowned Pastéis de Belém bakery for a taste of the famous custard tart",
@@ -164,7 +164,7 @@
       },
       {
         "id": "5413c602-244e-414a-a44b-3782549bc394",
-        "src": "/public/images/img-26.jpg",
+        "src": "images/img-26.jpg",
         "text": "Explore The Amazing Seoul",
         "label": "Luxury",
         "description":"Embark on a captivating journey to Explore the Amazing Seoul, a city where ancient traditions harmonize with cutting-edge modernity. Led by local experts, this tour invites you to uncover the multifaceted charm of South Korea's dynamic capital. Wander through the historic streets of Bukchon Hanok Village, where traditional Korean houses stand in harmony with the contemporary cityscape. Immerse yourself in the vibrant atmosphere of Insadong, a cultural and artistic hub known for its antique shops, galleries, and street food stalls. Discover the iconic beauty of Gyeongbokgung Palace, a symbol of Korea's royal history, and stroll through the lush grounds of Namsan Seoul Tower for panoramic views of the city. Explore the bustling markets of Dongdaemun and Myeongdong, offering an array of shopping and culinary delights",
@@ -173,7 +173,7 @@
       },
       {
         "id": "a7f6393f-f605-4183-9fd6-48155b587fbc",
-        "src": "/public/images/img-25.jpg",
+        "src": "images/img-25.jpg",
         "text": "Enjoy the City of Rio de Janeiro",
         "label": "family",
         "description":"Experience the enchantment of Rio de Janeiro, a city where nature's beauty and vibrant culture converge in an exhilarating dance. Nestled between golden beaches and lush mountains, Rio captivates with its iconic landmarks and effervescent spirit. Explore the world-famous Copacabana and Ipanema beaches, where the rhythm of the ocean meets the energy of beachside life. Wander through the colorful streets of Santa Teresa, adorned with street art and historic charm, and ascend to the breathtaking views atop Sugarloaf Mountain. Marvel at the iconic Christ the Redeemer statue, perched on Corcovado Mountain, and soak in the panoramic cityscape. Immerse yourself in the lively atmosphere of the Sambadrome, where the soul-stirring beats of samba come alive during the world-renowned Carnival.",
@@ -182,7 +182,7 @@
       },
       {
         "id": "94594f64-cfff-4983-abf8-b4aeb80fba59",
-        "src": "/public/images/img-1.jpg",
+        "src": "images/img-1.jpg",
         "text": "Travel through the Bejing on a private tour",
         "label": "Adventure",
         "description":"Embark on an exclusive journey to Travel Through Beijing on a Private Tour, where the ancient and modern seamlessly intertwine in China's capital. Guided by local experts, this personalized exploration offers a deep dive into the city's rich history, cultural treasures, and dynamic urban landscape. Discover the iconic wonders of Beijing, including the historic Forbidden City, a grand imperial palace that echoes centuries of Chinese history. Stroll through the expansive Tiananmen Square, a symbol of national pride, and marvel at the architectural splendor of the Temple of Heaven. Climb the majestic Great Wall of China at Mutianyu, where panoramic views of the surrounding mountains unfold. Explore the narrow hutongs, traditional alleyways that reveal the authentic charm of Old Beijing, and savor local flavors at bustling street markets.",
@@ -191,7 +191,7 @@
       },
       {
         "id": "7033ab5a-7d4b-4b73-9268-141f8730b512",
-        "src": "/public/images/img-6.jpg",
+        "src": "images/img-6.jpg",
         "text": "Explore The Clastles in Dubrovnik",
         "label": "Adventure",
         "description":"Step into the enchanting world of Dubrovnik as you Explore the Castles on this captivating tour. Guided by local experts, traverse the historic city walls, where ancient stone fortifications offer panoramic views of the azure Adriatic Sea and the terracotta rooftops below. Wander through the cobbled streets of the Old Town, a UNESCO World Heritage site, and discover the iconic Lovrijenac Fortress, perched dramatically on a seaside cliff. Immerse yourself in the rich history of the Rector's Palace, a cultural gem that echoes the city's past as a maritime powerhouse. Visit the majestic Sponza Palace, a harmonious blend of Gothic and Renaissance architecture, and stroll through charming alleys to reach the imposing Minceta Fortress. Uncover the secrets of Fort Bokar, a key defensive structure with commanding views of the city's coastline.",
@@ -200,7 +200,7 @@
       },
       {
         "id": "9d96701e-4add-47e6-b770-7267281b0b77",
-        "src": "/public/images/img-7.jpg",
+        "src": "images/img-7.jpg",
         "text": "Explore The Unique Burj Khalifa",
         "label": "Luxury",
         "description":"Embark on an extraordinary journey to discover the epitome of modern engineering and architectural marvels with our Unique Burj Khalifa Tour. Guided by local experts, this experience invites you to explore the world's tallest building, standing as a symbol of Dubai's soaring ambition and futuristic design. Ascend the towering heights of the Burj Khalifa, where panoramic views from the observation decks offer an unparalleled perspective of Dubai's dynamic skyline and the vast Arabian Desert beyond. Marvel at the meticulous craftsmanship and cutting-edge technology that went into the creation of this iconic skyscraper.Immerse yourself in the interactive exhibits on the lower floors, offering insights into the construction and design of the Burj Khalifa. As you ascend through the high-speed elevators, each level presents a new dimension of Dubai's evolution, making this tour an immersive journey through time and innovation",
@@ -209,7 +209,7 @@
       },
       {
         "id": "bb6e2102-3c47-44a2-82ef-f9bd11310368",
-        "src": "/public/images/img-24.jpg",
+        "src": "images/img-24.jpg",
         "text": "Enjoy the Unique History of Berlin",
         "label": "Adventure",
         "description":"Embark on a fascinating journey through time as you explore the Unique History of Berlin on this insightful tour. Guided by local experts, delve into the rich tapestry of the German capital, where centuries-old stories and modern narratives coexist in a city that has witnessed profound transformations.Wander through the iconic Brandenburg Gate, a symbol of both division and unity, and stroll along the remnants of the Berlin Wall, where fragments of history reveal the city's Cold War era. Immerse yourself in the poignant atmosphere of Checkpoint Charlie, a historic border crossing point that once defined East and West Berlin. Visit the somber yet impactful Holocaust Memorial, paying homage to the millions of lives lost during World War II. Explore the historic neighborhoods of Mitte and Kreuzberg, where architectural landmarks and vibrant street art narrate Berlin's ongoing story of resilience and reinvention.",
@@ -218,7 +218,7 @@
       },
       {
         "id": "3e5ef72e-14e3-4a36-81fe-37d319ffc377",
-        "src": "/public/images/img-4.jpg",
+        "src": "images/img-4.jpg",
         "text": "Ride through Thailand on a Private Ship",
         "label": "Adrenaline",
         "description":"Embark on the journey of a lifetime with our Private Ship Tour through the enchanting landscapes of Thailand. Guided by experienced local experts, this exclusive maritime adventure promises a personalized exploration of the Kingdom's coastal wonders, pristine islands, and vibrant cultural gems. Set sail on your private ship, cruising through the crystal-clear waters of the Andaman Sea or the Gulf of Thailand. Explore secluded bays and hidden coves, where ivory-white beaches meet lush greenery, creating a picturesque backdrop for your voyage. Visit iconic destinations like Phuket, Phi Phi Islands, or Koh Samui, each offering a unique blend of natural beauty and cultural richness. Dive into the azure waters for snorkeling adventures, discover vibrant marine life, and unwind on pristine beaches accessible only by sea.",
@@ -227,7 +227,7 @@
       },
       {
         "id": "0c125d1b-afcb-4ef6-9ffa-3cd8cb5eca0c",
-        "src": "/public/images/img-28.jpg",
+        "src": "images/img-28.jpg",
         "text": "Ride through the Ancient City of Petra on a guided camel tour",
         "label": "Adrenaline",
         "description":"Embark on a time-traveling adventure with our Guided Camel Tour through the Ancient City of Petra. Led by seasoned guides, this tour invites you to traverse the iconic red-rock landscapes of Jordan, immersing yourself in the timeless beauty and archaeological wonders of Petra. Mount your camel and journey through the narrow, winding Siq, a natural gorge flanked by towering cliffs that build anticipation for the grand reveal of Petra's iconic Treasury. Marvel at the intricate facades of ancient tombs and temples carved into rose-red cliffs, showcasing the architectural mastery of the Nabateans.As you ride through the ancient city, your camel's rhythmic steps create a connection with the past, allowing you to absorb the rich history and cultural significance of this UNESCO World Heritage site. From the majestic Monastery to the intricacies of the Roman Theater, every turn reveals a new chapter in Petra's storied legacy.",
@@ -236,7 +236,7 @@
       },
       {
         "id": "31204a57-b907-4cad-8d33-619457630970",
-        "src": "/public/images/img-29.jpg",
+        "src": "images/img-29.jpg",
         "text": "Explore The Amazing Street of London",
         "label": "Adventure",
         "description":"Embark on a captivating Tour of London, a city where history meets modernity, and iconic landmarks seamlessly blend with vibrant neighborhoods. Guided by local experts, this immersive journey invites you to discover the cultural richness, architectural wonders, and dynamic energy that define the heart of the United Kingdom.Begin your exploration with the regal charm of Buckingham Palace, witnessing the Changing of the Guard ceremony that echoes centuries of tradition. Stroll along the historic Mall to Trafalgar Square, where the grandeur of Nelson's Column and the National Gallery unfold. Marvel at the iconic silhouette of Big Ben and the Houses of Parliament along the River Thames, and cross the historic Tower Bridge to delve into the Tower of London's storied past. Explore the trendy streets of Shoreditch or the artistic enclave of Camden, each offering a unique perspective on London's contemporary culture.",
@@ -245,7 +245,7 @@
       },
       {
         "id": "69ad830b-e504-4e97-9d99-57ee7fcfa2db",
-        "src": "/public/images/img-30.jpg",
+        "src": "images/img-30.jpg",
         "text": "Enjoy the Unique Taj Mahal",
         "label": "Adventure",
         "description":"Embark on a spellbinding journey to witness the timeless beauty and architectural grandeur of the Taj Mahal with our immersive Taj Mahal Tour. Guided by knowledgeable experts, this experience invites you to delve into the rich history and cultural significance of one of the world's most iconic monuments.As you approach the ivory-white marble masterpiece, be captivated by its ethereal presence on the banks of the Yamuna River. Explore the intricate details of the Taj Mahal's symmetrical design, adorned with delicate carvings, exquisite calligraphy, and majestic domes that reach toward the heavens. Learn about the poignant love story behind the creation of the Taj Mahal, a testament to the enduring legacy of Emperor Shah Jahan's devotion to his beloved wife Mumtaz Mahal. Wander through the lush gardens that surround the monument, offering a serene backdrop to this architectural marvel",
@@ -254,7 +254,7 @@
       },
       {
         "id": "97356824-c12e-4481-9fdd-3aeeaaa255c7",
-        "src": "/public/images/img-31.jpg",
+        "src": "images/img-31.jpg",
         "text": "Experience private Tour at Rome Colosseum",
         "label": "Luxury",
         "description":"Embark on a journey through time with our Rome Colosseum Tour, a captivating exploration of one of the world's most iconic landmarks. Guided by seasoned experts, this immersive experience invites you to step into the ancient heart of Rome and unravel the stories embedded within the colossal walls of the Colosseum. As you approach this architectural marvel, marvel at the grandeur of its amphitheater design, where gladiators once clashed and roaring crowds witnessed epic battles. Explore the Colosseum's underground chambers and maze-like passages, gaining insights into the lives of the fighters and the spectacle of ancient Roman entertainment. Wander through the archaeological wonders of the Roman Forum and Palatine Hill, where the remnants of temples, arches, and imperial residences tell tales of Rome's glorious past. Learn about the engineering marvels that brought the Colosseum to life and the cultural significance of this enduring symbol of ancient Rome.",
@@ -263,7 +263,7 @@
       },
       {
         "id": "3b94a2d0-fa10-41c6-b9bf-1dd7d4d80e83",
-        "src": "/public/images/img-27.jpg",
+        "src": "images/img-27.jpg",
         "text": "Explore The old City of Jerusalem",
         "label": "Family",
         "description":"Embark on a spiritual and historical odyssey with our Jerusalem Tour, a mesmerizing exploration of a city revered by three major world religions. Guided by knowledgeable experts, this immersive journey invites you to traverse the ancient streets of Jerusalem, where the echoes of centuries-old stories resonate against the backdrop of sacred sites. Begin your pilgrimage at the Western Wall, a revered Jewish holy site, where prayers have echoed for generations. Ascend the Temple Mount to witness the iconic Dome of the Rock, a symbol of Islamic architecture and significance. Stroll through the bustling markets of the Old City, immersing yourself in the vibrant tapestry of cultures and traditions. Visit the Church of the Holy Sepulchre, where Christianity's most sacred site encompasses the crucifixion, burial, and resurrection of Jesus Christ. Explore the historic Mount of Olives, offering panoramic views of the city and the sacred Garden of Gethsemane.",
@@ -272,7 +272,7 @@
       },
       {
         "id": "eddf1752-222d-429a-9006-f2f8db798257",
-        "src": "/public/images/img-60.jpg",
+        "src": "images/img-60.jpg",
         "text": "Explore The old City of Venice",
         "label": "Family",
         "description":"Embark on a romantic and enchanting journey through the City of Venice with our immersive tour. Guided by local experts, this experience invites you to navigate the winding canals and meandering streets of one of Italy's most iconic destinations.Begin your exploration in the historic heart of Venice, St. Mark's Square, where the grandeur of St. Mark's Basilica and the exquisite architecture of the Doge's Palace unfold. Stroll across the iconic Rialto Bridge, a bustling nexus of activity with its vibrant markets and picturesque views of the Grand Canal. Board a traditional gondola or glide through the waters on a vaporetto, immersing yourself in the unique charm of Venice's waterways. Explore the labyrinthine streets of the Dorsoduro and Cannaregio districts, discovering hidden gems, quaint cafes, and artisanal shops. Visit the historic Jewish Ghetto, the world's first, and delve into the rich cultural and culinary offerings that define this vibrant neighborhood. Whether marveling at the intricate glasswork of Murano or savoring authentic Venetian cuisine, every moment in Venice promises an unforgettable experience.",
@@ -281,7 +281,7 @@
       },
       {
         "id": "cfc255d7-76ad-4cef-bd2e-522c404fe5f7",
-        "src": "/public/images/img-61.jpg",
+        "src": "images/img-61.jpg",
         "text": "Enjoy The Amazing City of Miami",
         "label": "Family",
         "description":"Experience the vibrant fusion of sun, art, and culture with our immersive Miami Tour. Guided by local experts, this exploration invites you to discover the dynamic energy and diverse landscapes that define this iconic city. Start your journey in the trendy neighborhoods of South Beach, where pastel-hued art deco architecture meets the white sands of Miami Beach. Stroll along Ocean Drive, a bustling boulevard lined with cafes and boutiques, capturing the essence of Miami's vibrant lifestyle.Venture into the artistic haven of Wynwood, where vibrant murals and street art transform the district into an open-air gallery. Explore the eclectic boutiques, galleries, and cafes that contribute to Wynwood's unique character.Visit the historic neighborhoods of Little Havana, immersing yourself in the rich Cuban culture through music, cuisine, and lively street life. Experience the high-energy atmosphere of Downtown Miami, where modern skyscrapers and bayfront parks coexist harmoniously",
@@ -290,7 +290,7 @@
       },
       {
         "id": "acb13fb3-b1ea-46ed-a764-1b8c9f7b9d61",
-        "src": "/public/images/img-62.jpg",
+        "src": "images/img-62.jpg",
         "text": "Enjoy The private Villages of Maldives",
         "label": "Family",
         "description":"Embark on a luxurious escape to the tropical paradise of the Maldives with our exclusive tour. Guided by local experts, this journey invites you to explore the breathtaking atolls, pristine beaches, and turquoise waters that define this idyllic destination.Begin your experience by arriving at your private overwater bungalow or beachfront villa, surrounded by the tranquility of the Indian Ocean. Immerse yourself in the vibrant coral reefs and marine life with guided snorkeling or diving excursions, discovering the kaleidoscope of colors beneath the crystal-clear waters.Indulge in the world-class amenities and spa offerings of your island resort, where relaxation and rejuvenation are paramount. As the sun sets, savor exquisite cuisine in a romantic setting over the water, with panoramic views of the endless horizon.",
@@ -299,7 +299,7 @@
       },
       {
         "id": "a02d7592-2fd9-4675-a45b-9ac7fefb31b0",
-        "src": "/public/images/img-63.jpg",
+        "src": "images/img-63.jpg",
         "text": "Explore The beauty of the Swiss Alps",
         "label": "Family",
         "description":"Embark on an Alpine adventure with our mesmerizing Swiss Alps Tour, a journey guided by the majesty of snow-capped peaks, pristine landscapes, and charming mountain villages. Begin your exploration amidst the iconic peaks of the Jungfrau region, where the Eiger, Mönch, and Jungfrau mountains create a breathtaking backdrop. Board the scenic Jungfraujoch Railway, ascending to the 'Top of Europe' and witnessing panoramic views of glaciers, valleys, and alpine meadows. Visit the picturesque resort town of Zermatt, nestled at the foot of the iconic Matterhorn. Marvel at the sheer beauty of this pyramid-shaped peak and explore the charming car-free streets of Zermatt, surrounded by the grandeur of the Alps.Explore the serene shores of Lake Lucerne, where emerald waters reflect the towering mountains that encircle the lake. Cruise across its pristine surface, passing quaint villages and historic landmarks against the backdrop of the Swiss Alps.",
@@ -308,7 +308,7 @@
       },
       {
         "id": "3717ea75-a7b0-4f49-a490-98a02e3f528",
-        "src": "/public/images/img-80.jpeg",
+        "src": "images/img-80.jpeg",
         "text": "Explore The Beaty of Puerto Viejo",
         "label": "Family",
         "description":"Embark on a tropical journey to Puerto Viejo, a vibrant and laid-back paradise nestled on the Caribbean coast of Costa Rica. Guided by local experts, this immersive tour invites you to explore the unique blend of Afro-Caribbean culture, lush rainforests, and pristine beaches that define this charming town.Begin your adventure by strolling along the lively streets of Puerto Viejo, where reggae beats and the aroma of Caribbean cuisine fill the air. Immerse yourself in the rich cultural tapestry, reflected in the colorful architecture, local artistry, and welcoming hospitality. Discover the natural wonders of the surrounding area, from the lush Gandoca-Manzanillo Wildlife Refuge to the idyllic Cahuita National Park. Hike through tropical rainforests, spotting exotic wildlife and cascading waterfalls, or unwind on the golden sands of Playa Cocles and Punta Uva. Engage in water activities such as snorkeling or surfing, exploring the vibrant coral reefs and the powerful waves of the Caribbean Sea. Indulge in local flavors at beachside eateries, savoring fresh seafood and tropical fruits",
@@ -317,7 +317,7 @@
       },
       {
         "id": "c13919ff-ae41-4eba-bc99-18d802cdabea",
-        "src": "/public/images/img-81.jpg",
+        "src": "images/img-81.jpg",
         "text": "Enjoy The City of Monte Carlo ",
         "label": "Family",
         "description":"Embark on a luxurious journey to the glittering gem of the French Riviera with our Monte Carlo Tour in Monaco. Guided by local experts, this experience invites you to explore the opulent city-state known for its glamorous casinos, yacht-filled harbors, and exquisite Mediterranean landscapes. Begin your adventure in Casino Square, surrounded by iconic landmarks such as the Casino de Monte-Carlo and the Hôtel de Paris. Marvel at the architectural elegance and grandeur that define this legendary gaming destination. Stroll through the manicured gardens of the Casino Square, where sophistication and style converge. Explore the Prince's Palace of Monaco, perched atop the Rock of Monaco, offering panoramic views of the city and the azure sea. Witness the changing of the guard ceremony and delve into the rich history of this principality.Drive along the famous Grand Prix circuit, tracing the winding streets that host the renowned Formula 1 race each year. Indulge in world-class shopping at the upscale boutiques of the Carré d'Or or unwind on the exclusive Larvotto Beach.",
@@ -326,7 +326,7 @@
       },
       {
         "id": "b0982346-dd8a-4853-a04f-af4379ecd368",
-        "src": "/public/images/img-66.jpg",
+        "src": "images/img-66.jpg",
         "text": "Enjoy The old City Oslo",
         "label": "Family",
         "description":"Embark on a cultural and scenic journey through the heart of Norway with our immersive Oslo Tour. Guided by local experts, this exploration invites you to discover the unique blend of history, contemporary architecture, and natural beauty that defines the captivating capital city. Begin your adventure at the iconic Viking Ship Museum, where centuries-old vessels and artifacts provide a glimpse into Norway's seafaring heritage. Stroll through the historic neighborhoods of Gamle Oslo, where charming streets reveal a mix of traditional and modern Scandinavian architecture. Visit the renowned Munch Museum, home to the works of iconic Norwegian artist Edvard Munch, including his masterpiece 'The Scream.' Explore the Akershus Fortress, a medieval castle that offers panoramic views of Oslo's harbor and surrounding landscapes.Experience the vibrant atmosphere of Aker Brygge, a waterfront district filled with shops, restaurants, and cultural venues. Cruise along the Oslo Fjord, witnessing the city's skyline and the scenic beauty that surrounds it.",
@@ -335,7 +335,7 @@
       },
       {
         "id": "d004985b-fc9a-4280-96ba-f9198d26e9d3",
-        "src": "/public/images/Img-54.jpg",
+        "src": "images/Img-54.jpg",
         "text": "Explore The Amazing City of Bruselas",
         "label": "Family",
         "description":"Embark on a captivating journey through the heart of Brussels with our immersive tour. Guided by local experts, this exploration invites you to discover the unique blend of historic charm, artistic creativity, and culinary delights that define the capital city of Belgium. Begin your adventure in the iconic Grand Place, a UNESCO World Heritage site, where ornate guildhalls and the Town Hall create a stunning backdrop. Stroll through the charming streets of the Sablon district, known for its antique shops, art galleries, and exquisite chocolate boutiques.  Marvel at the Atomium, a futuristic architectural marvel and symbol of post-war innovation, offering panoramic views of the city from its spheres. Explore the vibrant neighborhoods of Saint-Géry and Sainte-Catherine, where trendy bars, restaurants, and cultural spaces converge. Visit the Manneken Pis, the city's beloved bronze statue, and learn about its quirky folklore. Immerse yourself in the rich cultural tapestry of Brussels by exploring renowned museums such as the Magritte Museum or the Belgian Comic Strip Center.",
