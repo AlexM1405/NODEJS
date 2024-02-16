@@ -1,7 +1,6 @@
 import { randomUUID } from "crypto"
-import { readJSON } from "../../utils.js"
+//import { readJSON } from "../../utils.js"
 
-const Bookings= readJSON("./Booking.json")
 
 export class BookingModel {
 
