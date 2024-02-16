@@ -2,8 +2,9 @@ import { validateBooking } from "../Schemas/BookingSchemas.js";
 
 export class BookingControllers {
    constructor ({bookingModel}) {
-       this.bookingModel= bookingModel
+       this.bookingModel = bookingModel
     }
+  
    createBooking = async (req, res,) => {
        const result = validateBooking(req.body)
        if (!result.success){
@@ -13,12 +14,15 @@ export class BookingControllers {
        res.status(201).json(Bookings)
    }
  
-   getBooking = async (req, res,) => {
-       const id = req.params.id;
-       const Bookings = await this.bookingModel.getById(id);
-       if (!Bookings) return res.json(Bookings)
-       res.status(404).json({message:"Booking not found"});
-   }
+   getBooking = async (req, res) => {
+    const id = req.params.id;
+    const Bookings = await this.bookingModel.getById(id);
+    if (Bookings) {
+      return res.json(Bookings);
+    } else {
+      return res.status(404).json({ message: "Booking not found" });
+    }
+  };
  
    deleteBooking = async(req, res,) => {
        const { id } = req.params

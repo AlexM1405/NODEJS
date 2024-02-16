@@ -8,12 +8,11 @@ export const createBookingRouter = ({bookingModel}) => {
   
    const bookingController = new BookingControllers({ bookingModel })
     
-    
-    BookingRouter.post("/",  (bookingController.createBooking));
-    BookingRouter.get("/:id",(bookingController.getBooking));
-    BookingRouter.delete("/:id",  (bookingController.deleteBooking));
+   BookingRouter.post("/", bookingController.createBooking);
+   BookingRouter.get("/:id", bookingController.getBooking);
+   BookingRouter.delete("/:id", bookingController.deleteBooking);
 
-
+  
 
    return BookingRouter
 

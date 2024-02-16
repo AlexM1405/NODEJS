@@ -12,6 +12,13 @@ import { createUserRouter } from './Routes-Tours/User-Routers.js';
 import { TourModel } from './Models/Local-file-System/TourModel.js';
 import { UserModel } from './Models/Local-file-System/UserModel.js';
 import { BookingModel } from './Models/Local-file-System/BookingModel.js';
+import { readJSON } from "./utils.js"
+
+
+const serviceAccount = readJSON("./serviceAccountKey.json")
+
+import  admin from 'firebase-admin';
+
 
 
 const app = express()
@@ -26,6 +33,20 @@ const app = express()
   app.use("/Auth", createAuthRouter({userModel: UserModel}))
   app.use("/Booking", createBookingRouter({ bookingModel: BookingModel}))
 
+  
+  
+
+  app.get("/", (req,res) => {
+    const HtmlResponse = '<h1>The API is Working</h1>';
+    res.send(HtmlResponse);
+ });
+
+ if (!admin.apps.length) {
+  // Initialize Firebase Admin SDK
+  admin.initializeApp({
+    credential: admin.credential.cert(serviceAccount),
+  });
+}
 
  const PORT = process.env.PORT ?? 4888
 

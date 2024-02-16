@@ -1,17 +1,13 @@
 import { Router } from "express";
 import { AuthControllers } from "../Controllers/ControllersAuth.js";
 
+export const createAuthRouter = ({ userModel }) => {
+  const AuthRouter = Router();
 
-export const createAuthRouter = ({userModel}) => {
-    const AuthRouter = Router()
-  
-   const authController = new AuthControllers({ userModel })
-    
-    
-    AuthRouter.post("/SignUp", (authController.SignUp)),
-    AuthRouter.post("/login", (authController.login))
+  const authController = new AuthControllers({ userModel });
 
-   return AuthRouter
+  // Correctly pass the method references without invoking them
+  AuthRouter.post("/login", authController.login);
 
-
-}
+  return AuthRouter;
+};
