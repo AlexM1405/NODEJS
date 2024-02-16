@@ -1,7 +1,6 @@
 
 import { randomUUID } from "node:crypto"
-import { readJSON } from "../../Serv"
-
+import { readJSON } from "../../Serv.js"
 
 const Tours = readJSON("./Tours.json")
 
