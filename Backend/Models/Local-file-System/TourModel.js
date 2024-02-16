@@ -14,7 +14,7 @@ let Tours;
 
 export class TourModel {
     static async init() {
-        Tours = readJSON("./Tours.json");
+        Tours = readJSON("../../Tours.json");
     }
 
     static async getAll({ location }) {
