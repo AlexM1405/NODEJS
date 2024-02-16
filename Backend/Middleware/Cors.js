@@ -4,7 +4,7 @@ const ACCEPTED_ORIGINS = [
   'http://localhost:4888',
   'http://localhost:5173',
   'https://Utravel.com',
-  "https://deploy-mern-1whq.vercel.app"
+  "https://utravel-1c20a.web.app"
   
 ]
   

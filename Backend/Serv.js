@@ -35,7 +35,7 @@ app.use(corsMiddleware());
 app.disable("x-powered-by");
 app.use(cookieParser());
 
-app.use("/Tours", createTourRouter({tourModel:TourModel}));
+app.use("/Tours", corsMiddleware(),createTourRouter({tourModel:TourModel}));
 app.use("/User", createUserRouter({userModel: UserModel}));
 app.use("/Auth", createAuthRouter({userModel: UserModel}));
 app.use("/Booking", createBookingRouter({ bookingModel: BookingModel}));
