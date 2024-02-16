@@ -1,8 +1,7 @@
 import { randomUUID } from "crypto"
 //import { readJSON } from "../../utils.js"
 
-
-const User = readJSON("./User.json")
+let User;
 
 export class UserModel {
   static async getbyID({id}) {
