@@ -1,6 +1,14 @@
 
 import { randomUUID } from "node:crypto"
-import { readJSON } from "../../Serv.js"
+import { createRequire } from 'node:module';
+const require = createRequire(import.meta.url);
+
+const readJSON = (path) => {
+  if (typeof path !== 'string' || !path) {
+    throw new TypeError('The "path" argument must be a non-empty string.');
+  }
+  return require(path);
+};
 
 let Tours;
 
@@ -34,7 +42,7 @@ export class TourModel {
         const ToursIndex = Tours.findIndex(Tour => Tour.id === id);
         if (ToursIndex === -1) return false;
 
-        Tours.splice(ToursIndex,  1);
+        Tours.splice(ToursIndex,   1);
         return true;
     }
 
@@ -51,5 +59,5 @@ export class TourModel {
     }
 }
 
+// Call the init method to load the Tours data
 TourModel.init();
-
